@@ -25,7 +25,7 @@ Most of my repositories are private because they run real businesses — a cinem
 |---|---|---|
 | **Booqable ↔ ContaAzul sync engine** — [automacoes.2olhares.com](https://automacoes.2olhares.com) | Replaced four production Make.com scenarios (cutover 2026-08-03, zero data loss). Idempotent decision engine over an append-only journal, daily invariant checker that emails finance when the books disagree, typed alerts with de-duplication, write guards for missing tax IDs. | Node · Hono · BullMQ + Redis · Postgres / Drizzle · Docker |
 | **calsinc** — [calsinc.app](https://calsinc.app) | Calendar sync and booking bridge across Google Calendar accounts. | Node · Google Calendar API · Docker |
-| **Autopost** — autopost.luxvolt.com.br | Scheduled social publishing pipeline for the energy business. | Node · Docker |
+| **AutoPost** — [autopost.luxvolt.com.br](https://autopost.luxvolt.com.br) | SaaS for a franchise network: connects the franchisor's marketing hub (Sults) to each franchisee's Instagram and publishes automatically through the official Graph API. Free trial, no card. Automation as a product, not a scenario. | Node · Instagram Graph API · Docker |
 | **Make.com / Zapier / n8n** | Years of production scenarios before the custom engine: webhooks, HTTP modules, Google Apps Script bridges, sheet-to-CRM flows. The blueprints are archived alongside the engine that replaced them. | — |
 
 ## Products in production
@@ -33,10 +33,11 @@ Most of my repositories are private because they run real businesses — a cinem
 | Project | What it is | Stack |
 |---|---|---|
 | **ImportRadar** — [importradar.shop](https://importradar.shop) | Import-viability SaaS: scrapes marketplace and supplier pricing, computes landed cost, margin and ROI, flags products needing ANATEL certification. Payments, email, SSL, backups, health monitoring — all mine. | Python / Flask · Playwright · SQLite · Mercado Pago · Traefik · Cloudflare R2 |
-| **EletricParts** — [parts.luxvolt.com.br](https://parts.luxvolt.com.br) | Headless e-commerce storefront for EV-charging parts. | Medusa · Next.js · Postgres · Redis |
-| **Tupã** — [tupa.vc](https://tupa.vc) | EV-charger station aggregator with an extraction pipeline and public API. | Node · Redis · Postgres · Docker |
+| **LensReport** — [lensreport.2olhares.com](https://lensreport.2olhares.com) | SaaS: turns a cinema-lens inspection — instrument readings, cross-check, diagnosis — into a branded PDF report in the client's language. Free trial. | Next.js |
+| **Leasing simulator** — [leaseing.luxvolt.com.br](https://leaseing.luxvolt.com.br) | Financial model for photovoltaic leasing in condominiums (Rio tariff structure, Lei 14.300 "Fio B"), as an interactive simulator. | Vanilla JS |
+| **EletricParts** — parts.luxvolt.com.br | Headless e-commerce storefront for EV-charging parts. | Medusa · Next.js · Postgres · Redis |
+| **Tupã** — [tupa.vc](https://tupa.vc) | EV-charger station aggregator (Voltbras, Tupimob, movE…) with an extraction pipeline and public API. App in review. | Node · Redis · Postgres · Docker |
 | **LensSys** — lenssys.2olhares.com | Multi-tenant service management for cinema equipment repair. Replaces RepairShopr. | Next.js · Supabase |
-| **LensReport** — lensreport.2olhares.com | Optical test reports for cinema lenses. | Next.js |
 | **Collimator VCurve** — [collimator-releases](https://github.com/lucas-saldanha-werneck/collimator-releases) | V-curve FFD metrology app for lens collimation (public releases only). | — |
 | **Zeiss service manuals** | Two-stage authoring pipeline: training audio → transcript-faithful narrative → professional service manual, cross-referenced against OEM sources. | Whisper · LLM pipeline |
 

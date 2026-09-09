@@ -37,7 +37,7 @@ Most of my repositories are private because they run real businesses — a cinem
 | **Tupã** — [tupa.vc](https://tupa.vc) | EV-charger station aggregator with an extraction pipeline and public API. | Node · Redis · Postgres · Docker |
 | **LensSys** — lenssys.2olhares.com | Multi-tenant service management for cinema equipment repair. Replaces RepairShopr. | Next.js · Supabase |
 | **LensReport** — lensreport.2olhares.com | Optical test reports for cinema lenses. | Next.js |
-| **Collimator VCurve** — [collimator-releases](https://github.com/LuxVolt/collimator-releases) | V-curve FFD metrology app for lens collimation (public releases only). | — |
+| **Collimator VCurve** — [collimator-releases](https://github.com/lucas-saldanha-werneck/collimator-releases) | V-curve FFD metrology app for lens collimation (public releases only). | — |
 | **Zeiss service manuals** | Two-stage authoring pipeline: training audio → transcript-faithful narrative → professional service manual, cross-referenced against OEM sources. | Whisper · LLM pipeline |
 
 ## Infrastructure

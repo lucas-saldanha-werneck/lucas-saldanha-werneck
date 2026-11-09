@@ -8,6 +8,17 @@ Most of my repositories are private because they run real businesses — a cinem
 
 ---
 
+## Open source: Claude Code plugins
+
+**[claude-plugins](https://github.com/lucas-saldanha-werneck/claude-plugins)** — the 21 Claude Code plugins I use every day, in one catalog. MIT, one repo each.
+
+- **Claude checks its own work:** [give-up-guard](https://github.com/lucas-saldanha-werneck/give-up-guard) sends it back when it stops with "didn't check"; [wait-loop-guard](https://github.com/lucas-saldanha-werneck/wait-loop-guard) blocks wait loops with no deadline; [self-improve](https://github.com/lucas-saldanha-werneck/self-improve) turns repeated corrections into fixes; [polish](https://github.com/lucas-saldanha-werneck/polish) is a simplicity review.
+- **Sessions that survive:** [save-clear](https://github.com/lucas-saldanha-werneck/save-clear), [session-keeper](https://github.com/lucas-saldanha-werneck/session-keeper), [remote-sessions](https://github.com/lucas-saldanha-werneck/remote-sessions), [session-archive](https://github.com/lucas-saldanha-werneck/session-archive).
+- **Side panes:** the plan, assumptions and ideas beside the chat ([side-stack](https://github.com/lucas-saldanha-werneck/side-stack)).
+- **Web, secrets and the Mac:** [web-unlock](https://github.com/lucas-saldanha-werneck/web-unlock), [op-secrets](https://github.com/lucas-saldanha-werneck/op-secrets), [handoff-terminal](https://github.com/lucas-saldanha-werneck/handoff-terminal), [mac-remote](https://github.com/lucas-saldanha-werneck/mac-remote).
+
+---
+
 ## Voice & LLM agents
 
 | Project | What it is | Stack |
@@ -17,7 +28,6 @@ Most of my repositories are private because they run real businesses — a cinem
 | **Zona Sul MCP server** | Model Context Protocol server exposing a private VTEX GraphQL API as typed agent tools. Replaced brittle browser automation with direct authenticated calls. | TypeScript · MCP SDK · GraphQL |
 | **LensTechs knowledge agent** — [lenstech-discord.2olhares.com](https://lenstech-discord.2olhares.com) | RAG over a technical Discord. Incremental export → SQLite FTS5 → grounded answers with channel, author, date and permalink. Instructed to never answer from memory. | Python · SQLite FTS5 · Docker |
 | **BenchBigBrother** | Multi-camera capture and review for lens disassembly, with LLM-vision part identification. Motion-triggered ring buffer, hardware HEVC encode. | Node · ffmpeg / VAAPI · Anthropic SDK |
-| **Agent tooling** | 12 custom Claude Code skills and a policy hook that enforces an escalation ladder for web access: deny the third identical retry, block automated-browser fingerprints on protected sites, force the next tier instead of looping. | Node · hooks |
 
 ## Workflow automation & integrations
 
@@ -38,7 +48,7 @@ Most of my repositories are private because they run real businesses — a cinem
 | **EletricParts** — parts.luxvolt.com.br | Headless e-commerce storefront for EV-charging parts. | Medusa · Next.js · Postgres · Redis |
 | **Tupã** — [tupa.vc](https://tupa.vc) | EV-charger station aggregator (Voltbras, Tupimob, movE…) with an extraction pipeline and public API. App in review. | Node · Redis · Postgres · Docker |
 | **LensSys** — lenssys.2olhares.com | Multi-tenant service management for cinema equipment repair. Replaces RepairShopr. | Next.js · Supabase |
-| **Collimator VCurve** — [collimator-releases](https://github.com/lucas-saldanha-werneck/collimator-releases) | V-curve FFD metrology app for lens collimation (public releases only). | — |
+| **Collimator VCurve** — [colimador-releases](https://github.com/lucas-saldanha-werneck/colimador-releases) | V-curve FFD metrology app for lens collimation (public releases only). | — |
 | **Zeiss service manuals** | Two-stage authoring pipeline: training audio → transcript-faithful narrative → professional service manual, cross-referenced against OEM sources. | Whisper · LLM pipeline |
 
 ## Infrastructure

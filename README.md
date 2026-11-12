@@ -8,14 +8,19 @@ Most of my repositories are private because they run real businesses — a cinem
 
 ---
 
-## Open source: Claude Code plugins
+## Open source: AI tools for Claude Code
 
-**[claude-plugins](https://github.com/lucas-saldanha-werneck/claude-plugins)** — the 21 Claude Code plugins I use every day, in one catalog. MIT, one repo each.
+**[lucas-tools](https://github.com/lucas-saldanha-werneck/lucas-tools)** — the 26 AI tools I use every day with Claude Code: skills, hooks, mods (side panes and notes inside Claude Code) and commands, in one catalog. MIT, one repo each. To install, run this in Claude Code:
 
-- **Claude checks its own work:** [give-up-guard](https://github.com/lucas-saldanha-werneck/give-up-guard) sends it back when it stops with "didn't check"; [wait-loop-guard](https://github.com/lucas-saldanha-werneck/wait-loop-guard) blocks wait loops with no deadline; [self-improve](https://github.com/lucas-saldanha-werneck/self-improve) turns repeated corrections into fixes; [polish](https://github.com/lucas-saldanha-werneck/polish) is a simplicity review.
-- **Sessions that survive:** [save-clear](https://github.com/lucas-saldanha-werneck/save-clear), [session-keeper](https://github.com/lucas-saldanha-werneck/session-keeper), [remote-sessions](https://github.com/lucas-saldanha-werneck/remote-sessions), [session-archive](https://github.com/lucas-saldanha-werneck/session-archive).
-- **Side panes:** the plan, assumptions and ideas beside the chat ([side-stack](https://github.com/lucas-saldanha-werneck/side-stack)).
-- **Web, secrets and the Mac:** [web-unlock](https://github.com/lucas-saldanha-werneck/web-unlock), [op-secrets](https://github.com/lucas-saldanha-werneck/op-secrets), [handoff-terminal](https://github.com/lucas-saldanha-werneck/handoff-terminal), [mac-remote](https://github.com/lucas-saldanha-werneck/mac-remote).
+```
+/plugin marketplace add lucas-saldanha-werneck/lucas-tools
+```
+
+- **Claude checks its own work:** [give-up-guard](https://github.com/lucas-saldanha-werneck/give-up-guard) sends it back when it stops with "didn't check"; [side-notes](https://github.com/lucas-saldanha-werneck/side-notes) shows the one thing you may have missed; [self-improve](https://github.com/lucas-saldanha-werneck/self-improve) turns repeated corrections into fixes; [wait-loop-guard](https://github.com/lucas-saldanha-werneck/wait-loop-guard) blocks wait loops with no deadline; [polish](https://github.com/lucas-saldanha-werneck/polish) is a simplicity review; [plugin-dev-guard](https://github.com/lucas-saldanha-werneck/plugin-dev-guard) keeps edits in the source repo.
+- **Sessions that survive:** [save-clear](https://github.com/lucas-saldanha-werneck/save-clear) clears its own context and resumes from a summary; [session-keeper](https://github.com/lucas-saldanha-werneck/session-keeper), [remote-sessions](https://github.com/lucas-saldanha-werneck/remote-sessions), [session-archive](https://github.com/lucas-saldanha-werneck/session-archive), [rc-auto](https://github.com/lucas-saldanha-werneck/rc-auto).
+- **Side panes:** [assumptions-pane](https://github.com/lucas-saldanha-werneck/assumptions-pane), [idea-shelf](https://github.com/lucas-saldanha-werneck/idea-shelf), [plan-checklist](https://github.com/lucas-saldanha-werneck/plan-checklist) and [clean-view](https://github.com/lucas-saldanha-werneck/clean-view), stacked in one [side-stack](https://github.com/lucas-saldanha-werneck/side-stack).
+- **Web, secrets and the Mac:** [web-unlock](https://github.com/lucas-saldanha-werneck/web-unlock), [web-unlock-guard](https://github.com/lucas-saldanha-werneck/web-unlock-guard), [op-secrets](https://github.com/lucas-saldanha-werneck/op-secrets), [handoff-terminal](https://github.com/lucas-saldanha-werneck/handoff-terminal), [mac-remote](https://github.com/lucas-saldanha-werneck/mac-remote), [launchd-agenda](https://github.com/lucas-saldanha-werneck/launchd-agenda).
+- **More:** [llm-council](https://github.com/lucas-saldanha-werneck/llm-council) asks several LLMs and lets them rank each other; [api-credit](https://github.com/lucas-saldanha-werneck/api-credit); command-line tools [stable-sync](https://github.com/lucas-saldanha-werneck/stable-sync) and [meeting-copilot](https://github.com/lucas-saldanha-werneck/meeting-copilot).
 
 ---
 

@@ -72,4 +72,4 @@ Most of my repositories are private because they run real businesses — a cinem
 
 ### Background
 
-Physicist by training: co-author of a Physical Review D paper on dark energy ([Phys. Rev. D 71, 043515, 2005](https://arxiv.org/abs/astro-ph/0501643)). Seventeen years running production companies. Apple Certified Trainer. I have spent more of my life explaining technical systems to non-technical people than writing code — which turns out to be most of the job.
+Physicist by training: co-author of a Physical Review D paper on dark energy ([Phys. Rev. D 71, 043515, 2005](https://arxiv.org/abs/astro-ph/0501643)). Twenty years running production companies. Apple Certified Trainer. I have spent more of my life explaining technical systems to non-technical people than writing code — which turns out to be most of the job.
